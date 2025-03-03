@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  line-height: 1.5;
+  font-family: "DM Sans", serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 100px auto;
+  line-height: 1.5;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+.reviews {
+  background-color: hsl(256, 67%, 59%);
+}
+
+.accounts {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.schedule {
+  background-color: hsl(39, 100%, 71%);
+}
+
+.social-media {
+  background-color: hsl(254, 88%, 90%);
+}
+
+.followers {
+  background-color: hsl(256, 67%, 59%);
+}
+
+.growth {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.create-post {
+  background-color: hsl(31, 66%, 93%);
+}
+
+.ai-content {
+  background-color: hsl(39, 100%, 71%);
+}
+
+.image-one {
+  width: 100px;
+}
+
+.image-two {
+  width: 200px;
+}
+
+.image-three {
+  width: 100px;
+}
+
+.image-four {
+  width: 100px;
+}
+
+.image-five {
+  width: 100px;
+}
+
+.image-six {
+  width: 150px;
+}
+
+.image-seven {
+  width: 100px;
+}
+
+.image-eight {
+  width: 100px;
+}
