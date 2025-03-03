@@ -15,43 +15,92 @@ body {
 }
 
 .container {
-  margin: 100px auto;
+  margin: 0 auto;
   line-height: 1.5;
-  height: 100vh;
   max-width: 1440px;
+  padding: 20px;
 }
 
 .reviews {
   background-color: hsl(256, 67%, 59%);
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph-one {
+  color: hsl(254, 88%, 90%);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+.italics {
+  font-style: italic;
+  color: hsl(256, 67%, 59%);
+}
+span {
+  color: hsl(39, 100%, 71%);
 }
 
 .accounts {
   background-color: hsl(0, 0%, 100%);
+  border-radius: 7px;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 10px;
 }
 
 .schedule {
   background-color: hsl(39, 100%, 71%);
+  border-radius: 7px;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 10px;
 }
 
 .social-media {
   background-color: hsl(254, 88%, 90%);
+  border-radius: 7px;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 10px;
+}
+.paragraph-two {
+  font-size: 20px;
 }
 
 .followers {
   background-color: hsl(256, 67%, 59%);
+  border-radius: 7px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.heading-two {
+  color: hsl(0, 0%, 100%);
 }
 
 .growth {
   background-color: hsl(0, 0%, 100%);
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
 .create-post {
   background-color: hsl(31, 66%, 93%);
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
 .ai-content {
   background-color: hsl(39, 100%, 71%);
+  border-radius: 7px;
 }
+
+/* .container-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-one:nth-of-type(1) {
+  grid-column: 1/2;
+} */
 
 .image-one {
   width: 100px;
@@ -70,7 +119,7 @@ body {
 }
 
 .image-five {
-  width: 100px;
+  width: 200px;
 }
 
 .image-six {
