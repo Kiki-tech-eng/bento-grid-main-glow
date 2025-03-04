@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,16 +9,16 @@ body {
   line-height: 1.5;
   font-family: "DM Sans", serif;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
-  margin: 0 auto;
+  width: 1000px;
+  margin: auto;
   line-height: 1.5;
-  max-width: 1440px;
   padding: 20px;
+
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .reviews {
@@ -132,4 +132,29 @@ span {
 
 .image-eight {
   width: 100px;
+}
+
+.container-one-two,
+.container-three {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container-one {
+  grid-area: 1 / 2;
+    height: 10rem;
+    padding: 40px;
+    /* margin: 40px; */
+
+}
+.container-two {
+  grid-area: 1 / -1;
+    height: 10rem;
+
+}
+.container-three {
+  grid-area: 2 / -1 / span 1 / span 1;
+}
+.container-four {
+  grid-area: 1 / 0;
 }
